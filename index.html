@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cat vs Dog Image Classifier</title>
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-training-web/dist/ort-training.min.js"></script>
+</head>
+<body>
+    <h1>Cat vs Dog Image Classifier</h1>
+    <input type="file" id="file-upload" multiple accept=".png, .jpg, .jpeg" />
+    <div id="label-container"></div>
+    <script src="train.js"></script>
+    <button onclick="runTraining()">Run Training</button>
+</body>
+</html>
